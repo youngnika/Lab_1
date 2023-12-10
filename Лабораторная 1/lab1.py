@@ -24,7 +24,7 @@ class Car:
             raise ValueError("Количество лошадиных сил не может быть отрицательным числом")
         self.horsepower = horsepower
 
-        def is_old_car(self) -> bool:
+        def is_new_car(self) -> bool:
             """
             Функция, которая проверяет, новая ли машина по году выпуска
 
@@ -32,7 +32,7 @@ class Car:
 
             Примеры:
             >>> car = Car(2014, 347)
-            >>> car.is_old_car()
+            >>> car.is_new_car()
             """
             ...
 
