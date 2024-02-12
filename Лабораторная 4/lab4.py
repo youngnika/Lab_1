@@ -54,6 +54,7 @@ class SocialMedia:
         >>> friends.change_friends()
         """
         return self.friends + 1
+        
 class VK(SocialMedia):
     def __str__(self) -> str:
         return f'Дочерний класс "ВКонтакте".'
